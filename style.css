@@ -1,0 +1,89 @@
+* {
+      margin:0;
+      padding:0;  
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://wallpapermemory.com/uploads/387/forest-background-hd-1440x900-348192.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+
+.header{
+
+height: 15%;
+display: flex;
+align-items: center;
+overflow: hidden;
+position: relative;
+}
+
+.logo{
+	width: 200px;
+	cursor: pointer;
+}
+.navbar{
+	text-align: center;
+	flex: 1;
+}
+
+.navbar a{
+	padding: 6px 20px;
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.btn{
+	cursor: pointer;
+	color: #cc0052;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 1.7px 50px;
+	border: 2px solid #003333;
+	background: transparent;
+	text-decoration: none;
+	text-align:center;
+	font-weight: bold;
+	margin: 40px 20px;
+
+}
+
+.btn:hover{
+	color: gray;
+	background-color: maroon;
+}
+
+.btn a:visited{
+	background-color: #fff;
+	color: #cc0052
+}
+
+.btn a:hover{
+	color: #000;
+}
+
+
+.btn a:link{
+	text-decoration: none;
+}
+
+
+.content{
+	text-align: center;
+	margin-top: 12%
+}
+
+.content h1{
+	font-size: 150px;
+	color:white;
+}
